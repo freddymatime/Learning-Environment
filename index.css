@@ -1,21 +1,28 @@
 p {
-   color:white;
-   background-color:gray;
+   color:b;
+    font-size: 1.5em;
 }
 
-#titre{
-   color: #E0C9FF;
-   background-color: yellow;
-}
-
-
-#intro {
-   color: white;
-   background-color: gray;
+body { 
+    background-image: url("ciel.jpg");
+    
 }
 
 
+h1 {padding: 10px;
+  background: yellow;
+    border: 10px solid red;}
 
+blockquote {
+    margin: 0;
+}
 
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
 
-
+blockquote p::before {
+    content: '\201C';
+}
