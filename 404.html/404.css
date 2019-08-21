@@ -1,0 +1,21 @@
+body{
+    
+    background-image: url(404.jpg);
+}
+
+
+   
+        
+
+
+p {
+    position:absolute;
+    left:500px;
+    
+    color: red;
+    font-size: 5em;
+    text-align: center;
+	width: 200px;
+	height: 200px;
+	
+}
